@@ -1,0 +1,879 @@
+observation space: Box([-4.8000002e+00 -3.4028235e+38 -4.1887903e-01 -3.4028235e+38], [4.8000002e+00 3.4028235e+38 4.1887903e-01 3.4028235e+38], (4,), float32)
+action space: Discrete(2)
+4 2
+Episode finished after 15 timesteps
+loss:  tensor(0.0209, grad_fn=<AddBackward0>)
+Episode finished after 15 timesteps
+loss:  tensor(-0.7117, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.4979, grad_fn=<AddBackward0>)
+Episode finished after 15 timesteps
+loss:  tensor(-1.0869, grad_fn=<AddBackward0>)
+Episode finished after 12 timesteps
+loss:  tensor(2.2063, grad_fn=<AddBackward0>)
+Episode finished after 16 timesteps
+loss:  tensor(4.2172, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.5743, grad_fn=<AddBackward0>)
+Episode finished after 13 timesteps
+loss:  tensor(-1.5767, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.4945, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.5011, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(2.1232, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.4448, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.3510, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.3614, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.3052, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.2635, grad_fn=<AddBackward0>)
+Episode finished after 12 timesteps
+loss:  tensor(5.1330, grad_fn=<AddBackward0>)
+Episode finished after 12 timesteps
+loss:  tensor(3.4002, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.2397, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.2367, grad_fn=<AddBackward0>)
+Episode finished after 12 timesteps
+loss:  tensor(3.2368, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.2656, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.2582, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.2369, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.2608, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.2487, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.2410, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.2337, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.2140, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.2169, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.2042, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.1878, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.1674, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.1484, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.1533, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.1425, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.1182, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.1206, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0937, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0981, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0891, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0761, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0723, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0647, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0630, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0605, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0504, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0544, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0524, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0488, grad_fn=<AddBackward0>)
+Episode finished after 11 timesteps
+loss:  tensor(0.0428, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0379, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0389, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0342, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0288, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0308, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0240, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0250, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0237, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0239, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0213, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0199, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0202, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0211, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0161, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0174, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0166, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0166, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0164, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0146, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0141, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0148, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0129, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0128, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0109, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0122, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0146, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0129, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0126, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0115, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0095, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0124, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0099, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0091, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0105, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0096, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0102, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0097, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0092, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0075, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0087, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0095, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0080, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0079, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0070, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0068, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0068, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0087, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0077, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0078, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0079, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0063, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0070, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0083, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0060, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0058, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0058, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0062, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0059, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0049, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0070, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0051, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0056, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0055, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0056, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0055, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0058, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0052, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0057, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0052, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0054, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0054, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0046, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0048, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0045, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0055, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0055, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0044, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0055, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0040, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0043, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0042, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0046, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0045, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0046, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0041, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0043, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0049, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0044, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0037, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0043, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0042, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0037, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0033, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0040, grad_fn=<AddBackward0>)
+Episode finished after 11 timesteps
+loss:  tensor(0.0046, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0031, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0039, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0041, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0037, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0037, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0041, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0031, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0038, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0035, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0032, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0036, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0039, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0029, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0038, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0037, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0030, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0029, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0034, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0030, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0031, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0030, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0032, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0029, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0036, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0033, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0025, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0031, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0028, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0029, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0027, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0030, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0029, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0028, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0030, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0029, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0025, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0030, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0023, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0027, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0025, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0025, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0025, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0024, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0029, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0024, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0027, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0021, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0023, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0024, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0024, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0024, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0021, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0023, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0022, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0024, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0020, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0024, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0021, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0021, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0022, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0019, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0019, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0020, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0021, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0021, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0023, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0022, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0020, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0022, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0017, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0020, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0020, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0018, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0020, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0018, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0019, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0018, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0022, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0017, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0016, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0019, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0017, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0016, grad_fn=<AddBackward0>)
+Episode finished after 11 timesteps
+loss:  tensor(0.0021, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0019, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0017, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0020, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0017, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0018, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0019, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0017, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0016, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0018, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0018, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0016, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0016, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0018, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0016, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0017, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0019, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0017, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0016, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0016, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0017, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0015, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0014, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0013, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 11 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0012, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 11 timesteps
+loss:  tensor(0.0011, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 11 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 11 timesteps
+loss:  tensor(0.0010, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0009, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0005, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0007, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0008, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0005, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0005, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0005, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 8 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Episode finished after 10 timesteps
+loss:  tensor(0.0006, grad_fn=<AddBackward0>)
+Traceback (most recent call last):
+  File "D:\pythonProject\PG.py", line 76, in <module>
+    env.render()
+  File "C:\Users\szc\AppData\Local\Programs\Python\Python38\lib\site-packages\gym\core.py", line 329, in render
+    return self.env.render(*args, **kwargs)
+  File "C:\Users\szc\AppData\Local\Programs\Python\Python38\lib\site-packages\gym\wrappers\order_enforcing.py", line 51, in render
+    return self.env.render(*args, **kwargs)
+  File "C:\Users\szc\AppData\Local\Programs\Python\Python38\lib\site-packages\gym\wrappers\env_checker.py", line 55, in render
+    return self.env.render(*args, **kwargs)
+  File "C:\Users\szc\AppData\Local\Programs\Python\Python38\lib\site-packages\gym\envs\classic_control\cartpole.py", line 298, in render
+    self.clock.tick(self.metadata["render_fps"])
+KeyboardInterrupt

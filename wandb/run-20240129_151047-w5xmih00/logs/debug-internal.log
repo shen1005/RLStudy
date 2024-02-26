@@ -1,0 +1,386 @@
+2024-01-29 15:10:47,793 INFO    StreamThr :9956 [internal.py:wandb_internal():86] W&B internal server running at pid: 9956, started at: 2024-01-29 15:10:47.793118
+2024-01-29 15:10:47,794 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status
+2024-01-29 15:10:47,797 INFO    WriterThread:9956 [datastore.py:open_for_write():87] open: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\run-w5xmih00.wandb
+2024-01-29 15:10:47,798 DEBUG   SenderThread:9956 [sender.py:send():382] send: header
+2024-01-29 15:10:47,798 DEBUG   SenderThread:9956 [sender.py:send():382] send: run
+2024-01-29 15:10:48,709 INFO    SenderThread:9956 [dir_watcher.py:__init__():211] watching files in: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files
+2024-01-29 15:10:48,711 INFO    SenderThread:9956 [sender.py:_start_run_threads():1136] run started: w5xmih00 with start time 1706512247.793118
+2024-01-29 15:10:48,721 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: check_version
+2024-01-29 15:10:48,721 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: check_version
+2024-01-29 15:10:49,649 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: run_start
+2024-01-29 15:10:49,682 DEBUG   HandlerThread:9956 [system_info.py:__init__():27] System info init
+2024-01-29 15:10:49,682 DEBUG   HandlerThread:9956 [system_info.py:__init__():42] System info init done
+2024-01-29 15:10:49,682 INFO    HandlerThread:9956 [system_monitor.py:start():194] Starting system monitor
+2024-01-29 15:10:49,682 INFO    SystemMonitor:9956 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-29 15:10:49,683 INFO    HandlerThread:9956 [system_monitor.py:probe():214] Collecting system info
+2024-01-29 15:10:49,687 INFO    SystemMonitor:9956 [interfaces.py:start():190] Started cpu monitoring
+2024-01-29 15:10:49,688 INFO    SystemMonitor:9956 [interfaces.py:start():190] Started disk monitoring
+2024-01-29 15:10:49,688 INFO    SystemMonitor:9956 [interfaces.py:start():190] Started gpu monitoring
+2024-01-29 15:10:49,695 INFO    SystemMonitor:9956 [interfaces.py:start():190] Started memory monitoring
+2024-01-29 15:10:49,706 INFO    SystemMonitor:9956 [interfaces.py:start():190] Started network monitoring
+2024-01-29 15:10:49,730 DEBUG   HandlerThread:9956 [system_info.py:probe():151] Probing system
+2024-01-29 15:10:49,731 DEBUG   HandlerThread:9956 [gitlib.py:_init_repo():56] git repository is invalid
+2024-01-29 15:10:49,731 DEBUG   HandlerThread:9956 [system_info.py:probe():199] Probing system done
+2024-01-29 15:10:49,731 DEBUG   HandlerThread:9956 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.8.2', 'heartbeatAt': '2024-01-29T07:10:49.730773', 'startedAt': '2024-01-29T07:10:47.785140', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\pythonProject\\PG.py', 'codePathLocal': 'PG.py', 'codePath': 'PG.py', 'host': 'DESKTOP-MSP90EQ', 'username': 'szc', 'executable': 'C:\\Users\\szc\\AppData\\Local\\Programs\\Python\\Python38\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'/': {'total': 99.99901962280273, 'used': 77.05352020263672}}, 'gpu': 'NVIDIA GeForce GTX 1660 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1660 Ti', 'memory_total': 6442450944}], 'memory': {'total': 15.76727294921875}}
+2024-01-29 15:10:49,731 INFO    HandlerThread:9956 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-29 15:10:49,731 INFO    HandlerThread:9956 [system_monitor.py:probe():227] Publishing system info
+2024-01-29 15:10:49,733 INFO    HandlerThread:9956 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-29 15:10:49,735 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:10:49,737 DEBUG   SenderThread:9956 [sender.py:send():382] send: files
+2024-01-29 15:10:49,738 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-29 15:10:49,743 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-29 15:10:49,744 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: python_packages
+2024-01-29 15:10:49,744 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-29 15:10:49,745 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: stop_status
+2024-01-29 15:10:49,745 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-29 15:10:50,730 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_created():271] file/dir created: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\requirements.txt
+2024-01-29 15:10:50,731 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_created():271] file/dir created: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-metadata.json
+2024-01-29 15:10:50,903 INFO    wandb-upload_0:9956 [upload_job.py:push():131] Uploaded file C:\Users\szc\AppData\Local\Temp\tmp1g3nuukwwandb\kwej7mh6-wandb-metadata.json
+2024-01-29 15:10:51,363 DEBUG   SenderThread:9956 [sender.py:send():382] send: telemetry
+2024-01-29 15:10:51,752 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_created():271] file/dir created: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:10:51,772 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:10:51,818 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:10:51,819 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:10:51,820 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:10:51,821 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:10:52,526 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:10:52,526 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:10:52,526 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:10:52,527 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:10:52,767 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_created():271] file/dir created: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:10:53,487 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:10:53,494 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:10:53,494 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:10:53,495 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:10:53,495 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:10:53,778 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:10:53,778 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:10:53,812 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:10:54,866 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:10:54,867 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:10:54,867 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:10:54,868 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:10:55,250 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:10:55,251 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:10:55,251 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:10:55,251 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:10:55,815 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:10:55,815 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:10:55,841 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:10:56,095 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:10:56,095 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:10:56,095 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:10:56,096 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:10:56,816 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:10:57,838 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:10:57,866 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:10:58,097 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:10:58,098 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:10:58,098 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:10:58,099 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:10:58,848 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:10:59,090 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:10:59,097 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:10:59,097 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:10:59,097 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:10:59,098 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:10:59,866 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:10:59,867 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:10:59,867 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:10:59,867 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:10:59,868 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:10:59,868 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:10:59,894 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:00,783 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:00,784 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:00,784 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:00,785 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:00,881 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:01,381 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:01,381 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:01,381 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:01,382 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:01,889 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:01,890 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:01,921 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:02,150 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:02,151 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:02,151 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:02,152 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:02,580 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:02,581 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:02,581 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:02,581 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:02,897 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:03,419 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:03,420 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:03,420 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:03,421 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:03,919 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:03,919 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:03,946 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:04,425 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:11:04,740 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-29 15:11:04,740 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: stop_status
+2024-01-29 15:11:04,748 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-29 15:11:05,548 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:05,549 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:05,549 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:05,549 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:05,940 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:05,940 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:05,970 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:07,434 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:07,435 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:07,436 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:07,437 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:07,971 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:07,971 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:08,001 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:09,422 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:09,422 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:09,422 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:09,423 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:09,993 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:09,993 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:10,021 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:10,133 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:11:10,138 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:10,138 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:10,139 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:10,139 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:10,856 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:10,857 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:10,857 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:10,858 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:10,999 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:12,029 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:12,047 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:12,294 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:12,294 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:12,294 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:12,295 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:13,043 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:14,064 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:14,084 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:14,191 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:14,192 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:14,192 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:14,193 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:15,066 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:15,205 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:11:15,487 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:15,487 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:15,488 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:15,488 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:16,097 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:16,098 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:16,116 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:16,373 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:16,373 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:16,374 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:16,374 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:16,928 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:16,929 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:16,929 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:16,930 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:17,102 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:18,121 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:18,150 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:18,825 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:18,826 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:18,826 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:18,826 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:19,128 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:19,750 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-29 15:11:19,753 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-29 15:11:19,754 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: stop_status
+2024-01-29 15:11:19,989 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:20,118 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:20,118 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:20,119 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:20,148 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:20,148 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:20,214 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:20,575 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:11:20,576 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:20,858 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:20,858 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:20,858 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:21,154 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\config.yaml
+2024-01-29 15:11:21,154 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:21,299 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:21,300 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:21,300 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:21,300 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:22,055 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:22,055 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:22,056 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:22,056 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:22,178 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:22,178 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:22,246 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:23,892 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:23,893 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:23,893 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:23,894 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:24,199 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:24,199 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:24,291 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:24,909 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:24,910 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:24,910 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:24,910 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:25,208 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:25,924 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:11:26,066 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:26,067 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:26,067 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:26,068 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:26,226 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:26,227 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:26,319 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:26,619 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:26,619 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:26,619 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:26,620 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:27,239 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:27,458 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:27,458 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:27,458 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:27,459 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:28,095 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:28,096 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:28,096 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:28,096 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:28,263 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:28,263 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:28,350 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:28,738 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:28,739 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:28,739 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:28,740 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:29,268 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:29,956 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:29,956 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:29,957 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:29,957 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:30,287 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:30,287 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:30,379 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:30,416 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:30,416 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:30,416 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:30,417 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:31,292 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:31,430 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:11:32,329 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:32,404 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:33,091 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:33,091 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:33,091 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:33,092 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:33,330 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:34,215 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:34,215 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:34,215 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:34,216 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:34,359 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:34,359 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:34,437 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:34,750 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-29 15:11:34,760 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-29 15:11:34,761 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: stop_status
+2024-01-29 15:11:35,049 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:35,088 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:35,088 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:35,089 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:35,365 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:36,387 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:36,411 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 15:11:36,412 DEBUG   SenderThread:9956 [sender.py:send():382] send: history
+2024-01-29 15:11:36,412 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 15:11:36,413 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:36,462 ERROR   gpu       :9956 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-29 15:11:36,572 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:11:36,651 DEBUG   SenderThread:9956 [sender.py:send():382] send: exit
+2024-01-29 15:11:36,652 INFO    SenderThread:9956 [sender.py:send_exit():589] handling exit code: 255
+2024-01-29 15:11:36,652 INFO    SenderThread:9956 [sender.py:send_exit():591] handling runtime: 47
+2024-01-29 15:11:36,652 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:36,652 INFO    SenderThread:9956 [sender.py:send_exit():597] send defer
+2024-01-29 15:11:36,653 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:36,653 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-29 15:11:36,653 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:36,653 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-29 15:11:36,653 INFO    SenderThread:9956 [sender.py:transition_state():617] send defer: 1
+2024-01-29 15:11:36,653 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:36,653 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-29 15:11:36,653 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:36,653 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-29 15:11:36,653 INFO    SenderThread:9956 [sender.py:transition_state():617] send defer: 2
+2024-01-29 15:11:36,653 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:36,654 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-29 15:11:36,654 INFO    HandlerThread:9956 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-29 15:11:36,654 DEBUG   SystemMonitor:9956 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-29 15:11:36,654 INFO    HandlerThread:9956 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-29 15:11:36,654 DEBUG   SystemMonitor:9956 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-29 15:11:36,664 INFO    HandlerThread:9956 [interfaces.py:finish():202] Joined disk monitor
+2024-01-29 15:11:36,664 DEBUG   SystemMonitor:9956 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-29 15:11:36,702 INFO    HandlerThread:9956 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-29 15:11:36,703 INFO    HandlerThread:9956 [interfaces.py:finish():202] Joined memory monitor
+2024-01-29 15:11:36,703 INFO    HandlerThread:9956 [interfaces.py:finish():202] Joined network monitor
+2024-01-29 15:11:36,703 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:36,703 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-29 15:11:36,704 INFO    SenderThread:9956 [sender.py:transition_state():617] send defer: 3
+2024-01-29 15:11:36,704 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:36,704 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-29 15:11:36,706 DEBUG   SenderThread:9956 [sender.py:send():382] send: stats
+2024-01-29 15:11:36,707 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:36,707 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-29 15:11:36,707 INFO    SenderThread:9956 [sender.py:transition_state():617] send defer: 4
+2024-01-29 15:11:36,707 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:36,707 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-29 15:11:36,707 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:36,707 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-29 15:11:36,707 INFO    SenderThread:9956 [sender.py:transition_state():617] send defer: 5
+2024-01-29 15:11:36,707 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:36,707 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-29 15:11:36,708 DEBUG   SenderThread:9956 [sender.py:send():382] send: summary
+2024-01-29 15:11:36,708 INFO    SenderThread:9956 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 15:11:36,708 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:36,708 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-29 15:11:36,709 INFO    SenderThread:9956 [sender.py:transition_state():617] send defer: 6
+2024-01-29 15:11:36,709 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:36,709 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-29 15:11:36,709 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:36,709 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-29 15:11:36,709 INFO    SenderThread:9956 [sender.py:transition_state():617] send defer: 7
+2024-01-29 15:11:36,709 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 15:11:36,709 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:36,709 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-29 15:11:36,710 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:36,710 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-29 15:11:37,396 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-summary.json
+2024-01-29 15:11:37,664 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-29 15:11:38,399 INFO    Thread-16 :9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:38,585 INFO    SenderThread:9956 [sender.py:transition_state():617] send defer: 8
+2024-01-29 15:11:38,586 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: poll_exit
+2024-01-29 15:11:38,586 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:38,586 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-29 15:11:38,586 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:38,586 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-29 15:11:38,586 INFO    SenderThread:9956 [job_builder.py:build():296] Attempting to build job artifact
+2024-01-29 15:11:38,587 INFO    SenderThread:9956 [job_builder.py:_get_source_type():437] no source found
+2024-01-29 15:11:38,587 INFO    SenderThread:9956 [sender.py:transition_state():617] send defer: 9
+2024-01-29 15:11:38,587 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 15:11:38,587 INFO    HandlerThread:9956 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-29 15:11:38,587 DEBUG   SenderThread:9956 [sender.py:send_request():409] send_request: defer
+2024-01-29 15:11:38,587 INFO    SenderThread:9956 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-29 15:11:38,587 INFO    SenderThread:9956 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-29 15:11:38,677 DEBUG   HandlerThread:9956 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-29 15:11:39,409 INFO    SenderThread:9956 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log
+2024-01-29 15:11:39,410 INFO    SenderThread:9956 [dir_watcher.py:finish():388] scan: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files
+2024-01-29 15:11:39,410 INFO    SenderThread:9956 [dir_watcher.py:finish():402] scan save: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\config.yaml config.yaml
+2024-01-29 15:11:39,410 INFO    SenderThread:9956 [dir_watcher.py:finish():402] scan save: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\output.log output.log
+2024-01-29 15:11:39,412 INFO    SenderThread:9956 [dir_watcher.py:finish():402] scan save: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\requirements.txt requirements.txt
+2024-01-29 15:11:39,414 INFO    SenderThread:9956 [dir_watcher.py:finish():402] scan save: D:\pythonProject\wandb\run-20240129_151047-w5xmih00\files\wandb-metadata.json wandb-metadata.json

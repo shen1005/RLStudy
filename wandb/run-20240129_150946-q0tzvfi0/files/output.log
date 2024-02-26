@@ -1,0 +1,89 @@
+observation space: Box([-4.8000002e+00 -3.4028235e+38 -4.1887903e-01 -3.4028235e+38], [4.8000002e+00 3.4028235e+38 4.1887903e-01 3.4028235e+38], (4,), float32)
+action space: Discrete(2)
+4 2
+Episode finished after 12 timesteps
+loss:  tensor(0.3203, grad_fn=<AddBackward0>)
+Episode finished after 18 timesteps
+loss:  tensor(0.3470, grad_fn=<AddBackward0>)
+Episode finished after 22 timesteps
+loss:  tensor(-0.0450, grad_fn=<AddBackward0>)
+Episode finished after 19 timesteps
+loss:  tensor(-0.0105, grad_fn=<AddBackward0>)
+Episode finished after 24 timesteps
+loss:  tensor(-1.1060, grad_fn=<AddBackward0>)
+Episode finished after 25 timesteps
+loss:  tensor(-0.0567, grad_fn=<AddBackward0>)
+Episode finished after 14 timesteps
+loss:  tensor(1.0341, grad_fn=<AddBackward0>)
+Episode finished after 13 timesteps
+loss:  tensor(0.0179, grad_fn=<AddBackward0>)
+Episode finished after 26 timesteps
+loss:  tensor(-0.5832, grad_fn=<AddBackward0>)
+Episode finished after 16 timesteps
+loss:  tensor(-1.1950, grad_fn=<AddBackward0>)
+Episode finished after 21 timesteps
+loss:  tensor(0.4965, grad_fn=<AddBackward0>)
+Episode finished after 25 timesteps
+loss:  tensor(0.6248, grad_fn=<AddBackward0>)
+Episode finished after 22 timesteps
+loss:  tensor(-0.4888, grad_fn=<AddBackward0>)
+Episode finished after 52 timesteps
+loss:  tensor(-0.1742, grad_fn=<AddBackward0>)
+Episode finished after 16 timesteps
+loss:  tensor(0.1799, grad_fn=<AddBackward0>)
+Episode finished after 14 timesteps
+loss:  tensor(-0.5468, grad_fn=<AddBackward0>)
+Episode finished after 16 timesteps
+loss:  tensor(-0.0882, grad_fn=<AddBackward0>)
+Episode finished after 63 timesteps
+loss:  tensor(0.8592, grad_fn=<AddBackward0>)
+Episode finished after 16 timesteps
+loss:  tensor(-0.3465, grad_fn=<AddBackward0>)
+Episode finished after 15 timesteps
+loss:  tensor(0.0247, grad_fn=<AddBackward0>)
+Episode finished after 17 timesteps
+loss:  tensor(-0.9827, grad_fn=<AddBackward0>)
+Episode finished after 14 timesteps
+loss:  tensor(-0.4507, grad_fn=<AddBackward0>)
+Episode finished after 16 timesteps
+loss:  tensor(0.4432, grad_fn=<AddBackward0>)
+Episode finished after 9 timesteps
+loss:  tensor(0.2217, grad_fn=<AddBackward0>)
+Episode finished after 26 timesteps
+loss:  tensor(0.2340, grad_fn=<AddBackward0>)
+Episode finished after 14 timesteps
+loss:  tensor(0.5646, grad_fn=<AddBackward0>)
+Episode finished after 24 timesteps
+loss:  tensor(0.7201, grad_fn=<AddBackward0>)
+Episode finished after 11 timesteps
+loss:  tensor(-0.0390, grad_fn=<AddBackward0>)
+Episode finished after 15 timesteps
+loss:  tensor(-0.3356, grad_fn=<AddBackward0>)
+Episode finished after 25 timesteps
+loss:  tensor(0.6677, grad_fn=<AddBackward0>)
+Episode finished after 17 timesteps
+loss:  tensor(0.5323, grad_fn=<AddBackward0>)
+Episode finished after 13 timesteps
+loss:  tensor(-0.4967, grad_fn=<AddBackward0>)
+Episode finished after 14 timesteps
+loss:  tensor(-0.0258, grad_fn=<AddBackward0>)
+Episode finished after 14 timesteps
+loss:  tensor(1.5706, grad_fn=<AddBackward0>)
+Episode finished after 19 timesteps
+loss:  tensor(0.0041, grad_fn=<AddBackward0>)
+Episode finished after 31 timesteps
+loss:  tensor(-2.2753, grad_fn=<AddBackward0>)
+Episode finished after 32 timesteps
+loss:  tensor(-0.1864, grad_fn=<AddBackward0>)
+Traceback (most recent call last):
+  File "D:\pythonProject\PG.py", line 93, in <module>
+    action = agent.choose_action(observation)
+  File "D:\pythonProject\PG.py", line 29, in choose_action
+    m = Categorical(action_probs)
+  File "C:\Users\szc\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\distributions\categorical.py", line 66, in __init__
+    super(Categorical, self).__init__(batch_shape, validate_args=validate_args)
+  File "C:\Users\szc\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\distributions\distribution.py", line 54, in __init__
+    valid = constraint.check(value)
+  File "C:\Users\szc\AppData\Local\Programs\Python\Python38\lib\site-packages\torch\distributions\constraints.py", line 406, in check
+    return torch.all(value >= 0, dim=-1) & ((value.sum(-1) - 1).abs() < 1e-6)
+KeyboardInterrupt

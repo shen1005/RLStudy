@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.2",
+    "heartbeatAt": "2024-01-26T11:16:11.754216",
+    "startedAt": "2024-01-26T11:16:05.420653",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\pythonProject\\PG.py",
+    "codePathLocal": "PG.py",
+    "codePath": "PG.py",
+    "host": "DESKTOP-MSP90EQ",
+    "username": "szc",
+    "executable": "C:\\Users\\szc\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0,
+        "min": 0.0,
+        "max": 2592.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 2592.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 99.99901962280273,
+            "used": 58.124244689941406
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 Ti",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.76727294921875
+    }
+}
