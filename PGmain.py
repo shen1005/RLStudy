@@ -31,9 +31,11 @@ def train(env_name, seed, num_episodes, log_dir='experiments/limit-holdem/PG'):
         hidden_layers=[64, 64],
         device=device,
     )
+    # agent = torch.load('experiments/limit-holdem/PG/model.pth')
     agents = [agent]
     for _ in range(1, env.num_players):
-        agents.append(RandomAgent(num_actions=env.num_actions))
+        # agents.append(RandomAgent(num_actions=env.num_actions))
+        agents.append(torch.load('experiments/limit-holdem/model.pth'))
     env.set_agents(agents)
     with Logger(log_dir) as logger:
         for episode in range(num_episodes):
@@ -57,7 +59,7 @@ def train(env_name, seed, num_episodes, log_dir='experiments/limit-holdem/PG'):
     plt.plot(money)
     plt.show()
 
-def evaluate(env_name, seed, num_episodes, is_random=False, log_dir='experiments/limit-holdem/PG'):
+def evaluate(env_name, seed, num_episodes, is_random=False, log_dir='experiments/limit-holdem/PG', model='Ran'):
     device = get_device()
     set_seed(seed)
     env = rlcard.make(
@@ -77,7 +79,10 @@ def evaluate(env_name, seed, num_episodes, is_random=False, log_dir='experiments
         )
     agents = [agent]
     for _ in range(1, env.num_players):
-        agents.append(RandomAgent(num_actions=env.num_actions))
+        if model == 'Ran':
+            agents.append(RandomAgent(num_actions=env.num_actions))
+        else:
+            agents.append(torch.load('experiments/limit-holdem/model.pth'))
     env.set_agents(agents)
     rewards = []
     for i in range(1000):
@@ -85,9 +90,33 @@ def evaluate(env_name, seed, num_episodes, is_random=False, log_dir='experiments
         rewards.append(payoffs[0])
     # 计算获胜率
     print(f"获胜率: {sum([1 for r in rewards if r > 0]) / 1000}")
+    print(f"平均收益: {sum(rewards) / 1000}")
 
+# PG和DQN对打
+def against(env_name, seed, num_episodes):
+    device = get_device()
+    set_seed(seed)
+    env = rlcard.make(
+        env_name,
+        config={
+            'seed': seed,
+        }
+    )
+    pg_agent = torch.load('experiments/limit-holdem/PG/model.pth')
+    dqn_agent = torch.load('experiments/limit-holdem/model.pth')
+    agents = [pg_agent, dqn_agent]
+    env.set_agents(agents)
+    rewards = []
+    for i in range(1000):
+        trajectories, payoffs = env.run(is_training=False)
+        rewards.append(payoffs[0])
+    # 计算获胜率
+    print(f"pg获胜率: {sum([1 for r in rewards if r > 0]) / 1000}")
+    print(f"pg平均收益: {sum(rewards) / 1000}")
 
 if __name__ == "__main__":
-    evaluate('limit-holdem', 0, 1000, is_random=True)
+    # against('limit-holdem', 0, 1000)
+    evaluate('limit-holdem', 0, 1000, is_random=True, model="DQN")
     train('limit-holdem', 0, 5000)
     evaluate('limit-holdem', 0, 1000)
+    against('limit-holdem', 0, 1000)
